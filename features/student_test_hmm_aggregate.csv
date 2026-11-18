@@ -1,0 +1,7 @@
+metric,value,definition
+classifier_weighted_top1_all_route_labeled,0.7602674307545367,All heuristic route labels; candidate misses count incorrect.
+hmm_weighted_top1_all_route_labeled,0.8219781385970498,All heuristic route labels; candidate misses count incorrect.
+classifier_macro_top1_by_trip_all_route_labeled,0.7880089634555578,Unweighted mean across student-test trips; misses count incorrect.
+hmm_macro_top1_by_trip_all_route_labeled,0.8519185668984421,Unweighted mean across student-test trips; misses count incorrect.
+classifier_mean_continuity,0.8732875687062508,Mean continuity over decoded-adjacent candidate observations.
+hmm_mean_continuity,0.9950055391549816,Mean continuity over decoded-adjacent candidate observations.

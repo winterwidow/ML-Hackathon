@@ -1,0 +1,5 @@
+Bayesian search: Gaussian-process expected improvement; 10 trials; 3-fold GroupKFold by trip; training trips only.
+Objective: mean observation-level Top-1 accuracy.
+Best configuration: n_estimators=160, max_depth=16, min_samples_leaf=10, max_features=sqrt, class_weight=balanced.
+Best 3-fold grouped Top-1: 0.758879 +/- 0.027579.
+Evaluator-test data was not used. Labels are heuristic route alignments.

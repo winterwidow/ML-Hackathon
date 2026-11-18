@@ -1,0 +1,2 @@
+Seed 42; 80%/20% grouped trip holdout. Validation trips: 00000011, 00000020, 00000029, 00000037, 00000046, 00000047, 00000051, 00000057, 00000061, 00000062, 00000069, 00000071, 00000074, 00000079, 00000080, 00000090
+Source labels are heuristic spatial route alignment; results are provisional. Student-test and evaluator-test partitions were not used.

@@ -1,0 +1,2 @@
+model,train_trips,student_test_trips,train_rows_after_negative_sampling,student_candidate_rows,student_observations_with_candidates,route_label_coverage,candidate_misses,candidate_miss_rate,top1_accuracy_all_route_labeled_obs,candidate_accuracy,candidate_macro_f1,candidate_log_loss,train_seconds,inference_ms_per_observation
+Logistic Regression C=1,80,10,748072,93903,14759,14571,0,0.0,0.7825818406423718,0.8933047932440923,0.8005551355724053,0.2647305428981781,0.4466328000416979,0.0005588928791656167

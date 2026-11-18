@@ -1,0 +1,6 @@
+Best C: 1
+Best 3-fold grouped CV observation top-1 accuracy: 0.756223 +/- 0.030786
+Trials: 10
+Search: Gaussian-process Bayesian optimization over log10(C) in [-3,3], 4 initial points then expected improvement.
+Objective: mean observation-level top-1 accuracy.
+Partitions: training trips only; student-test and evaluator-test were not used. Labels are heuristic route alignments.
