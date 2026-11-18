@@ -2,6 +2,15 @@
 
 PathSnap scores nearby directed road segments for noisy GPS observations and uses an HMM/Viterbi decoder to reconstruct a connected route. A FastAPI server serves predictions to the browser interface in `api/static/index.html`.
 
+## Team Members
+
+| Name | SRN |
+| --- | --- |
+| Tanvi Magalur | PES2UG24CS257 |
+| Malepati Viswajith | PES2UG24CS259 |
+| Muthuraj SM | PES2UG24CS289 |
+| Naija Hodiegre | PES2UG24CS296 |
+
 ## Final model and results
 
 The current final artifact is a Bayesian-tuned Extra Trees classifier (`160` trees, depth `16`, minimum leaf size `10`, `max_features=sqrt`, balanced class weights) followed by HMM/Viterbi decoding. Model selection prioritizes end-to-end route reconstruction. Hist Gradient Boosting achieved the strongest candidate macro F1 and log loss, while tuned Extra Trees achieved the highest HMM route scores in the permitted student-test development comparison. The full comparison and caveats are in [FINAL_MODEL_DECISION.md](FINAL_MODEL_DECISION.md).
