@@ -99,10 +99,10 @@ On Laptop 2, open `http://LAPTOP1-IP:8000/`, set the API address to Laptop 1's I
 
 See [docs/TEAM_DEMO_GUIDE.md](docs/TEAM_DEMO_GUIDE.md) for the role-by-role walkthrough, data and CSV explanations, model rationale, chart guide, limitations, judge Q&A, and two-laptop demo checklist. Generate the train/student-test EDA charts with `python eda.py --data-root .\data --output-dir .\eda`, and the aggregate model/HMM charts with `python plot_results.py`.
 
-- **Person 1 - Data and features:** `pathsnap_person1.py`, `eda.py`, `create_eda_folium_maps.py`, alignment review, and data quality.
-- **Person 2 - Models:** five-model comparison, grouped CV, Bayesian tuning, and final model training.
-- **Person 3 - Route decoding:** HMM/Viterbi logic in `hmm_decode.py`.
-- **Person 4 - Demo integration:** `api/app.py`, browser UI, and two-laptop setup.
+- **Person 1 - Malepati Viswajith - Data and features:** `pathsnap_person1.py`, `eda.py`, `create_eda_folium_maps.py`, alignment review, and data quality.
+- **Person 2 - Naija Hodiegre - Models:** five-model comparison, grouped CV, Bayesian tuning, and final model training.
+- **Person 3 - Tanvi Magalur - Route decoding:** HMM/Viterbi logic in `hmm_decode.py`.
+- **Person 4 - Muthuraj SM - Demo integration:** `api/app.py`, browser UI, and two-laptop setup.
 
 ## Label limitations
 
